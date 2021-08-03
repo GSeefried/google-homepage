@@ -1,3 +1,29 @@
+/* Flex Box setup */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+header {
+    height: 64px;
+    background-color: white;
+}
+
+footer {
+    height: 40px;
+    background-color: #ececec;
+    
+}
+
+* {
+    margin: 0;
+}
 /* Top Nav bar stylings */
 
 ul {
@@ -25,13 +51,17 @@ a.signin {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
-    border-radius: 4px;
-    width: 50px;
-    height: 20px;
+    border-radius: 2px;
+    width: 60px;
+    height: 12px;
     text-decoration: none;
     background-color: hsl(217, 88%, 60%);
     color: azure;
     text-align: center;
+    margin: 7px 15px;
+    font-family: arial,sans-serif;
+    font-size: 12;
+    padding-top: 4px;
 }
 
 .gapps {
@@ -44,7 +74,6 @@ a.signin {
 /* Logo, Search Bar and Buttons */
 
 .search {
-    background-color: chartreuse;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -57,18 +86,39 @@ a.signin {
 .logo {
     background-color: white;
     align-self: center;
+    padding-bottom: 100px;
 }
 
 #searchbar {
+    position: relative;
     width: 550px;
-    height: 35px;
+    height: 38px;
     border-radius: 20px;
-    margin-left: 430px;  
+    margin-left: 375px;  
     margin-top: 25px;  
 }
 
+.icons {
+    position: relative;
+}
+
+.magnify {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 35px;
+    left: 385px;
+}
+
+.microphone {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 35px;
+    left: 890px;
+}
+
 .buttons {
-    background-color: red;
     display: flex;
     width: 100%;
     height: 75px;
@@ -93,10 +143,7 @@ a.signin {
 
 /* Footer */
 
-.footer {
-    width: 100%;
-    background-color: rgb(143, 74, 207);
-}
+
 
 .footer a{
     display: block;
