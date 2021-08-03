@@ -48,11 +48,10 @@ a.signin {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 190px;
     position: relative;
     top: 100px;
     flex-direction: column;
-    
-    
 }
 
 .logo {
@@ -62,8 +61,54 @@ a.signin {
 
 #searchbar {
     width: 550px;
-    align-self: center;
     height: 35px;
     border-radius: 20px;
-    
+    margin-left: 430px;  
+    margin-top: 25px;  
+}
+
+.buttons {
+    background-color: red;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.searchbutton {
+    width: 125px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.lucky {
+    width: 125px;
+    height: 35px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: rgb(143, 74, 207);
+}
+
+.footer a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+.bottomleft li {
+    float: left;
+    color: white;
+}
+
+.bottomright li {
+    float: right;
+    color: white;
 }
