@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    
 }
 
 .content {
@@ -13,6 +14,8 @@ body {
 header {
     height: 64px;
     background-color: white;
+    margin-top: 10px;
+
 }
 
 footer {
@@ -24,6 +27,7 @@ footer {
 * {
     margin: 0;
 }
+
 /* Top Nav bar stylings */
 
 ul {
@@ -35,6 +39,7 @@ ul {
 
 .topleft li {
     float: left;
+    margin-left: 10px;
 }
 
 .topright li {
@@ -90,16 +95,17 @@ a.signin {
 }
 
 #searchbar {
-    position: relative;
+    position: absolute;
     width: 550px;
     height: 38px;
     border-radius: 20px;
-    margin-left: 375px;  
+    margin-left: 30%;  
     margin-top: 25px;  
 }
 
 .icons {
     position: relative;
+    width: auto;
 }
 
 .magnify {
@@ -107,7 +113,7 @@ a.signin {
     height: 25px;
     width: 25px;
     top: 35px;
-    left: 385px;
+    left: 31%;
 }
 
 .microphone {
@@ -115,7 +121,7 @@ a.signin {
     height: 25px;
     width: 25px;
     top: 35px;
-    left: 890px;
+    right: 32%;
 }
 
 .buttons {
@@ -149,6 +155,7 @@ a.signin {
     display: block;
     padding: 8px;
     text-decoration: none;
+    width: auto;
 }
 .bottomleft li {
     float: left;
