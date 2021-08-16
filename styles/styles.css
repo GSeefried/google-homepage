@@ -176,7 +176,9 @@ input#searchbar {
 
 /* Footer */
 
-
+.footer {
+    position: relative;
+}
 
 .footer a{
     display: block;
