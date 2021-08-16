@@ -3,7 +3,7 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     overflow-y: hidden;
     
 }
@@ -60,9 +60,7 @@ ul {
 }
 
 a.signin {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+    appearance: auto;
     border-radius: 2px;
     width: 60px;
     height: 12px;
