@@ -4,15 +4,18 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    max-height: 100%;
     overflow-y: hidden;
-
 }
 
+html {
+    height: 100%;
+}
 .content {
     flex: 1;
     margin:auto;
     width: 45rem;
-    overflow-y: hidden;
+    
     
 }
 header {
@@ -149,7 +152,7 @@ input#searchbar {
     flex-direction: row;
     justify-content: center;
     margin-top: 80px;
-    overflow-y: hidden;
+    
     
 }
 
