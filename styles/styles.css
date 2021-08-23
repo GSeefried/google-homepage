@@ -68,8 +68,8 @@ a {
 a.signin {
     appearance: auto;
     border-radius: 2px;
-    width: 60px;
-    height: 14px;
+    width: 4rem;
+    height: 1rem;
     text-decoration: none;
     background-color: hsl(217, 88%, 60%);
     color: azure;
