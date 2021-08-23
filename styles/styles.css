@@ -4,12 +4,18 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+
 }
 
 .content {
     flex: 1;
-    margin: auto;
-    width: 960px;
+    margin:auto;
+    width: 45rem;
+    
+}
+
+.wrapper {
+    margin-top: 2rem;
     overflow-y: hidden;
 }
 
@@ -88,18 +94,18 @@ a.signin {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 190px;
+    height: 12rem;
     position: relative;
-    top: 100px;
+    top: 6rem;
     flex-direction: column;
+    z-index: -1;
+    background-color: white;
+    padding-bottom: 3rem;
+    
 }
 
 .logo {
-    background-color: white;
     align-self: center;
-    padding-bottom: 100px;
-    resize: none;
-    z-index: -1;
 }
 
 input#searchbar {
@@ -108,10 +114,10 @@ input#searchbar {
  
 #searchbar {
     position: absolute;
-    width: 50%;
-    height: 38px;
+    width: 29.5rem;
+    height: 2.5rem;
     border-radius: 20px;
-    margin-left: 25%;  
+    margin-left: 16%;  
     margin-top: 2%;  
     outline: none;
     resize: none;
@@ -126,8 +132,8 @@ input#searchbar {
     position: absolute;
     height: 25px;
     width: 25px;
-    margin-top: 3%;
-    left: 26.5%;
+    margin-top: 3.5%;
+    left: 18%;
     resize: none;
 }
 
@@ -135,8 +141,8 @@ input#searchbar {
     position: absolute;
     height: 25px;
     width: 25px;
-    margin-top: 3%;
-    right: 26.5%;
+    margin-top: 3.5%;
+    right: 19.5%;
     resize: none;
 }
 
@@ -151,8 +157,8 @@ input#searchbar {
 }
 
 .searchbutton {
-    width: 15%;
-    height: 35px;
+    width: 10rem;
+    height: 2rem;
     margin-right: 5px;
     border-radius: 5px;
     margin-top: 1%;
@@ -161,8 +167,8 @@ input#searchbar {
 }
 
 .lucky {
-    width: 15%;
-    height: 35px;
+    width: 10rem;
+    height: 2rem;
     margin-left: 5px;
     border-radius: 5px;
     margin-top: 1%;
